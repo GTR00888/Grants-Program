@@ -1,219 +1,235 @@
-Global Token Registry
-Level 3 Grant Application
-Funding Request 190000 USD
+GTR Attestation and Proof Framework for Polkadot
 
-Team Name
-Global Token Registry Ltd
+Team Name: Global Token Registry Ltd
 
-Payment Details
-DOT address
-16PDornryDFeEHbtLQ3H1YdCjzZCPJ2RLQBKKvbAW863E3X5
+Payment Details:
+DOT: 16PDornryDFeEHbtLQ3H1YdCjzZCPJ2RLQBKKvbAW863E3X5
+Payment: 16PDornryDFeEHbtLQ3H1YdCjzZCPJ2RLQBKKvbAW863E3X5 (USDC)
 
-USDC AssetHub address
-16PDornryDFeEHbtLQ3H1YdCjzZCPJ2RLQBKKvbAW863E3X5 (USDC)
-
-Level
-3
+Level: 3
 
 Project Overview
 
 Overview
 
 Tagline
-A public verification layer for digital asset projects built on open standards.
+An open attestation and proof framework for verifiable project information in the Polkadot ecosystem.
 
-Global Token Registry is a verification system that allows crypto projects to submit identity information, governance information and evidence of activity in a structured and reliable format. It provides an attestation process, a trust indicator system and a public verification service.
+A brief description of your project
+This project delivers an attestation and proof framework that enables structured identity and governance attestations and generates Merkle based proofs that can be verified in Substrate compatible environments.
+The work includes attestation schemas, validation rules, a Merkle proof generator, a Substrate compatible anchoring example and a verification tool.
+The project does not provide a registry, trust indicators or a hosted verification service.
 
-The project connects with the Polkadot ecosystem through state anchoring, proof generation and Substrate compatible formats. This allows wallets, explorers and parachain tools to confirm the integrity of project information and verify that it has not been altered.
+Relation to Substrate and Polkadot
+The framework integrates through Substrate compatible anchoring examples and proof verification routines.
 
-The team is building this work because no consistent and open standard exists for project level verification. Polkadot is a suitable environment due to its modular design, predictable verification and secure shared base.
+Why your team is interested
+The team has researched project verification models and identified the need for open specifications and reproducible proof methods.
 
 Project Details
 
-All work in this proposal will be released under the Apache 2.0 licence.
+Mockups/designs of any UI components
+There is no UI. Usage will be demonstrated through command line examples.
 
-This grant will deliver the following work.
+Data models / API specifications of the core functionality
+Identity attestation schema
+Governance attestation schema
+Validation rules
+Merkle proof structure
+Anchoring payload format
 
-Attestation module
-Schemas for identity, governance and evidence
-Submission service
-Trust indicator output for Certified, Registered, Unverified and Flagged
-Proof generator using Merkle based methods
-Polkadot compatible anchoring system
-Registry engine for project information
-Verification logic
-Public verification service
-Software development kit for integration
-
-Technology used
-
+Technology stack
 Rust
-Substrate compatible anchoring
-Typescript for the software development kit
+Typescript examples
 JSON schemas
-Docker for reproducible testing
+Substrate compatible anchoring
+Docker environments
 
-Documentation
-
-Protocol description
-Data structure information
+Documentation of core components
+Schema reference
+Validation guide
+Proof generation documentation
+Anchoring example documentation
 Verification instructions
-Public service usage
-Examples for developers
 
-What this project will not provide
+PoC/MVP or prior work
+Internal drafts exist for schemas, validation logic and proof structures.
+These will be rebuilt and published under the Apache 2.0 licence.
 
-No scoring and no rating
+What your project is not
+No scoring
+No ratings
+No trust tiers
+No registry or storage
+No public verification service
+No SDK
+No governance theory
+No business or marketing activities
+
+Things that shouldn’t be part of the application
 No tokenomics
-No promotional work or branding
-No business services
-No hosting templates
-No governance theory writing
+No deployment or hosting costs
+No marketing or business planning
 
 Ecosystem Fit
 
-Global Token Registry will offer a shared and consistent layer of verification for the Polkadot ecosystem. It will support any team that needs reliable information about the identity and governance of a project.
+Where and how the project fits
+This work provides attestation and proof primitives required by explorers, audit tools and parachain teams.
 
-Target groups
-
-Wallet developers
+Target audience
 Parachain developers
-Explorer and indexer teams
+Wallet developers
+Indexers and explorers
 Security and audit teams
-Project teams
-Regulatory aligned services
+Developers preparing verifiable project data
 
 Needs addressed
+There is no consistent attestation standard for project level information.
+There is no open proof mechanism for verifying project supplied data.
+Security incidents show losses caused by unverifiable disclosures.
 
-There is market wide uncertainty regarding the accuracy of project information. Many incidents of fraud and failure occurred because information presented to users was not verified. Research by Chainalysis recorded significant losses linked to misleading information. European regulators have highlighted the need for better transparency in digital asset activity. Developer discussions also show clear demand for an open verification standard.
+Evidence
+Industry analysis and regulatory publications highlight the need for verifiable disclosures.
+Developer discussions show demand for consistent verification patterns.
 
-There are no existing systems in the Polkadot ecosystem that provide structured project verification or evidence based trust indicators. Identity tools exist but they do not supply registry verification. Outside ecosystems offer code reviews and audits but no neutral project registry with verifiable state.
+Similar projects
+Identity pallets exist but do not support application level attestations or Merkle based proof systems.
+
+Related ecosystems
+Other ecosystems offer audits but not attestation formats or proof primitives.
 
 Team
 
-Team Members
+Team members
 Kuljit Toor
-Engineering support will be contracted for Rust development, backend work and verification logic as required.
-
-Team Capacity
-The project will be delivered through a combined capacity equal to two full time roles plus an additional half time engineering support role. This totals 2.5 FTE. This covers attestation development, registry building, anchoring integration, proof generation and documentation. Additional specialist support will be used when required for code review, testing and integration.
+Engineering support contracted as required
 
 Contact
 Contact Name: Kuljit Toor
-Email: KuljitToor@globaltokenregistry.com
+Contact Email: KuljitToor@globaltokenregistry.com
+
+Website: Work in progress
 
 Legal Structure
 Registered Address: 124 City Road London England EC1V 2NX
 Registered Legal Entity: Global Token Registry Ltd
 
-Team Experience
-Experience includes governance systems, operational controls, financial integrity processes and technical delivery across regulated sectors. Engineering support covers Rust programming, backend systems, state verification and Substrate compatible integration.
-
-The team has drafted the trust indicator design, the attestation flow and the early registry structure. These will be refined and published during the grant.
+Team's experience
+Experience includes governance, integrity and verification logic in regulated environments.
+Engineering experience includes Rust development, Merkle proof systems and Substrate integrations.
 
 Team Code Repos
-https colon slash slash github dot com slash GTR00888
+https://github.com/GTR00888
+
+GitHub accounts
+https://github.com/GTR00888
+
+Team LinkedIn Profiles
+Available on request.
 
 Development Status
 
-Completed work includes
-Definition of trust states
-High level registry design
-Attestation workflow outline
-Draft schema formats
-Concept architecture
-Research on anchoring and proof methods
+Draft attestation schemas
+Initial validation logic
+Early Merkle proof model
+Anchoring design outline
+Attestation structure research
 
-These drafts are internal and will be converted into open documentation during the grant. No external funding has supported this work.
+No previous funding overlaps.
 
 Development Roadmap
 
 Overview
-Total Estimated Duration: 4 months
-Full Time Equivalent: 2.5
-Total Costs: 190000 USD
-DOT percentage: 50 percent DOT and 50 percent USDC
+Total Estimated Duration: 5 months
+Full-Time Equivalent (FTE): 2.1
+Total Costs: 110000 USD (requested)
+DOT %: 50% DOT and 50% USDC
 
-Milestone One
-Attestation Kernel
-Duration: 1 month
-FTE: 2.5
-Cost: 38000 USD
+Milestone 1
+Attestation Structures and Validation
+Estimated duration: 1 month
+FTE: 2.0
+Costs: 30000 USD
 
-Required deliverables
-Open source licence
-Inline documentation
-Testing and test guide
-Dockerfile
+Deliverables
+0a. Licence: Apache 2.0
+0b. Documentation: Schema reference and validation guide
+0c. Testing and Testing Guide: Unit tests for validation logic
+0d. Docker: Dockerfile for validation testing
+Identity and governance schema definitions
+Validation logic
+Examples
 
-Main deliverables
-Attestation structures for identity, governance and evidence
-Submission service
-Basic trust indicator output
-Validation rules
-Examples and test material
+Milestone 2
+Merkle Proof Generator
+Estimated duration: 1 month
+FTE: 2.0
+Costs: 30000 USD
 
-Milestone Two
-Anchoring and Proof System
-Duration: 1 month
-FTE: 2.5
-Cost: 56000 USD
-
-Required deliverables
-Open source licence
-Documentation
-Testing
-Dockerfile
-
-Main deliverables
+Deliverables
+0a. Licence: Apache 2.0
+0b. Documentation: Proof generation documentation
+0c. Testing and Testing Guide: Test vectors
+0d. Docker: Dockerfile for proof generator testing
 Merkle based proof generator
-Anchoring to a Substrate compatible chain
-Verification tool for checking proofs
-Data formats and documentation
+Test vectors
+Proof data format
 
-Milestone Three
-Registry Engine and Trust Logic
-Duration: 1 month
+Milestone 3
+Substrate Anchoring Example
+Estimated duration: 1 month
 FTE: 2.5
-Cost: 56000 USD
+Costs: 25000 USD
 
-Required deliverables
-Open source licence
-Documentation
-Testing
-Dockerfile
+Deliverables
+0a. Licence: Apache 2.0
+0b. Documentation: Anchoring example documentation
+0c. Testing and Testing Guide: Anchoring payload tests
+0d. Docker: Dockerfile for anchoring tests
+Anchoring example for a Substrate compatible chain
+Proof submission and integrity check logic
+Integration notes
 
-Main deliverables
-Registry backend with versioned storage
-Consistency checks
-Evidence checks
-Trust logic for Certified, Registered, Unverified and Flagged
-Change log and record history
-Complete documentation
-
-Milestone Four
-Polkadot Integration and Software Development Kit
-Duration: 1 month
+Milestone 4
+Verification Tool
+Estimated duration: 1 month
 FTE: 2.5
-Cost: 40000 USD
+Costs: 25000 USD
 
-Required deliverables
-Open source licence
-Documentation
-Testing
-Dockerfile
-Article for the community
+Deliverables
+0a. Licence: Apache 2.0
+0b. Documentation: Verification instructions
+0c. Testing and Testing Guide: Proof checking tests
+0d. Docker: Dockerfile for verification tests
+0e. Article
+CLI verification tool
+Examples and tests
 
-Main deliverables
-Public verification service
-Typescript software development kit
-Integration example
-Deployment guide
+Milestone 5
+Final Integration and Consolidation
+Estimated duration: 1 month
+FTE: 1.5
+Costs: Included in overall project total
+
+Deliverables
+0a. Licence: Apache 2.0
+0b. Documentation: Final consolidated documentation
+0c. Testing and Testing Guide: End to end integration tests
+0d. Docker: Unified Docker test environment
+0e. Article: Final technical summary
+Documentation consolidation
+Integration testing
+Final quality checks
+Repository cleanup
 
 Future Plans
+Future proposals may extend the framework into storage models, federation patterns and advanced governance attestations.
+Short term focus is testing and stability.
 
-The registry will be extended into deeper governance models if further funding is secured. A federated hosting model will be created through a separate program when available. Multi chain integrations will be considered after the core system is live. The long term aim is to support a wider trust infrastructure based on open standards.
+Referral Program (optional)
+Referrer: None
+Payment Address: None
 
 Additional Information
-
-The team learned about the program through Web3 Foundation communication and research. Previous applications include NGI Zero, NGI Fediversity and ARIA. None overlap with the work funded in this proposal.
+Heard about the Grants Program through Web3 Foundation communication and ecosystem discussions.
+Previous submissions include NGI Zero, NGI Fediversity and ARIA. None overlap with this proposal.
